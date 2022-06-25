@@ -1,0 +1,29 @@
+#dashboard-edit-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+}
+#dashboard-edit-text-wrapper > * {
+  margin: 10px;
+}
+
+#dashboard-edit-textarea, #dashboard-edit-textarea-preview {
+  min-height: 500px;
+}
+
+#dashboard-edit-title {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 10px;
+}
+
+#dashboard-edit-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#dashboard-edit-title-label {
+  font-weight: bold;
+}

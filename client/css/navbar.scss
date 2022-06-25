@@ -1,0 +1,68 @@
+$LogoFont: 100% Cinzel, normal;
+$DefaultFont: 100% Lato, normal;
+
+@font-face {
+    font-family: Cinzel;
+    src: url("../assets/Fonts/Cinzel/Cinzel.ttf");
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("../assets/Fonts/Lato/Lato-Regular.ttf");
+}
+
+body > * {
+  font: $DefaultFont;
+}
+
+@mixin bar {
+  flex-shrink: 1;
+  list-style: none;
+  width: 80%;
+  max-height: 50px;
+  margin-left: 10%;
+  align-items: stretch;
+  padding: 5px 0 5px 0;
+  border-style: none;
+  text-align: center;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 3fr 7fr 3fr;
+    margin-bottom: 50px;
+    @include bar;
+    li {
+        margin: auto;
+    }
+    .logo {
+        font: $LogoFont;
+        font-size: 40px;
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+    }
+}
+
+#main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  & a {
+    color: #000;
+    padding: 10px;
+  }
+}
+
+.user-section {
+    display: flex;
+    flex-wrap: wrap;
+    @include bar;
+    width: 100%;
+}
+
+.nav-button {
+  padding: 15px;
+  font-size: 20px;
+  color:#000;
+}

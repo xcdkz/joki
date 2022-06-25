@@ -1,0 +1,20 @@
+{
+    "name": "two-six/joki",
+    "version": "0.0.1",
+    "type": "project",
+    "require": {
+        "rakibtg/sleekdb": "^2.13",
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "firebase/php-jwt": "^6.2",
+        "ext-curl": "*",
+        "fpay/xid-php": "^1.0",
+        "league/html-to-markdown": "^5.1",
+        "league/commonmark": "^2.3"
+    },
+    "scripts": {
+        "full-build": [
+            "scss_mass_compiler && docker-compose build && docker-compose up"
+        ]
+    }
+}

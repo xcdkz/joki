@@ -1,0 +1,21 @@
+#contact-wrapper {
+  width: 40%;
+  margin-left: 30%;
+  h1 {
+    font-size: 35px;
+  }
+  #contact-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    tr {
+      font-size: 20px;
+      .contact-icon {
+        font-size: 25px;
+      }
+      td {
+        padding: 15px;
+      }
+    }
+  }
+}

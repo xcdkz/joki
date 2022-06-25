@@ -1,0 +1,32 @@
+#register-content-wrapper {
+  width: 40%;
+  margin-left: 30%;
+}
+
+#register-title {
+  text-align: center;
+}
+
+#register-form {
+  display: flex;
+  flex-direction: column;
+}
+#register-form > input {
+  width: 60%;
+  margin-left: 20%;
+  padding: 5px;
+  font-size: 17px;
+}
+#register-form > span {
+  margin: 10px 10px 10px 20%;
+}
+#register-form > button {
+  width: 20%;
+  padding: 10px;
+  margin: 10px 10px 10px 60%;
+}
+
+.register-warning {
+  color: red;
+  font-size: 14px;
+}

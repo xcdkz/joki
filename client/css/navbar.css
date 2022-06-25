@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Cinzel;
+  src: url("../assets/Fonts/Cinzel/Cinzel.ttf");
+}
+@font-face {
+  font-family: Lato;
+  src: url("../assets/Fonts/Lato/Lato-Regular.ttf");
+}
+body > * {
+  font: 100% Lato, normal;
+}
+
+#navbar {
+  display: grid;
+  grid-template-columns: 3fr 7fr 3fr;
+  margin-bottom: 50px;
+  flex-shrink: 1;
+  list-style: none;
+  width: 80%;
+  max-height: 50px;
+  margin-left: 10%;
+  align-items: stretch;
+  padding: 5px 0 5px 0;
+  border-style: none;
+  text-align: center;
+}
+#navbar li {
+  margin: auto;
+}
+#navbar .logo {
+  font: 100% Cinzel, normal;
+  font-size: 40px;
+}
+#navbar .logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+#main-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main-menu a {
+  color: #000;
+  padding: 10px;
+}
+
+.user-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  list-style: none;
+  width: 80%;
+  max-height: 50px;
+  margin-left: 10%;
+  align-items: stretch;
+  padding: 5px 0 5px 0;
+  border-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-button {
+  padding: 15px;
+  font-size: 20px;
+  color: #000;
+}

@@ -1,0 +1,136 @@
+#index-textarea-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#index-title-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+#index-title-box #index-title-label {
+  font-weight: bold;
+  margin: 10px;
+}
+#index-title-box #index-title {
+  width: 100%;
+}
+
+#index-text-box {
+  display: flex;
+  flex-direction: column;
+  white-space: pre-line;
+}
+
+#index-preview-box {
+  width: 47.5%;
+  margin-right: 5%;
+  min-height: 500px;
+  white-space: pre-line;
+  resize: none;
+  border: #000 solid 1px;
+}
+#index-preview-box > * {
+  margin: 10px;
+}
+
+#index-preview-true-box {
+  width: 47.5%;
+  min-height: 500px;
+  white-space: pre-line;
+  resize: none;
+  border: #000 solid 1px;
+}
+#index-preview-true-box > * {
+  margin: 2px;
+}
+
+#index-content-wrapper {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+#index-text-side {
+  width: 70%;
+}
+
+#index-public-header {
+  text-align: center;
+}
+
+#index-public-side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.index-public-list-item {
+  text-align: center;
+  border: black 1px solid;
+  padding: 10px;
+  width: 80%;
+  margin: 0 0 10px 30px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-decoration: none;
+}
+.index-public-list-item .index-public-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.index-public-list-item span {
+  overflow-wrap: break-word;
+}
+
+#index-public-pastes-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#index-new-paste {
+  font-size: 20px;
+}
+
+#index-paste-box {
+  width: 100%;
+  font-size: 15px;
+  resize: none;
+  height: 500px;
+  border: solid 1px;
+  background-color: #fff;
+}
+
+#index-content-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 10px;
+}
+#index-content-buttons > * {
+  margin: 5px;
+}
+
+#index-preview-box {
+  border: solid 1px;
+  background-color: #fff;
+}
+
+.h-captcha {
+  display: flex;
+  float: right;
+}
+
+.reg-button {
+  padding: 15px;
+  font-size: 12px;
+  color: #000;
+  align-content: center;
+}
+
+#index-warning-box {
+  color: red;
+  font-size: 15px;
+}

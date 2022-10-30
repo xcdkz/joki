@@ -1,5 +1,5 @@
 style.css.map
 vendor/
-private/
+# private/
 bin/
 .idea/

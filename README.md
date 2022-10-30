@@ -1,5 +1,5 @@
 # General
-Build system requires docker, composer, php and [scss_mass_compiler](https://github.com/two-six/scss_mass_compiler) to build
+Build system requires docker, docker-compose, composer, php and [scss_mass_compiler](https://github.com/two-six/scss_mass_compiler) to build
 # Instructions
 **server run command(while in the project folder):**
 ```bash
